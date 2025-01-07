@@ -1,0 +1,152 @@
+.arimo-uniquifier {
+    font-family: "Arimo", serif;
+    font-optical-sizing:auto;
+    font-weight : weight;
+    font-style : normal;
+  }
+
+/*Partie Header*/
+header{
+    display:flex;
+    justify-content: space-between ;
+    flex-wrap: wrap;
+    margin:10px 20px;
+}
+
+header .left{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+header .right{
+    display:flex;
+    flex-wrap: wrap;
+
+}
+
+header p{
+    margin-right: 10px;
+    cursor:pointer;
+    color:black;
+}
+/*Fin partie Header*/
+
+
+body{
+    font-family:'Arimo', sans-serif;
+    margin:0;
+    padding:0;
+}
+
+
+/*Partie principale*/
+.main{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top: 250px;
+}
+.main .form-group{
+    display:flex;
+    flex-direction:column;
+    width:30%;
+}
+
+
+
+.main .form-group label i{
+float:right;
+font: size 20px;
+
+}
+
+.main .buttons{
+    margin-top: 40px;
+}
+
+.main .buttons button{
+    padding: 10px 20px;
+    background-color:#f8f9fa;
+    border:none;
+    border-radius: 5px;
+    margin-right: 10px;
+    outline:none;
+    cursor:pointer;
+}
+
+/*Fin partie principale*/
+
+a{
+    color:#454545;
+}
+
+/*Partie footer*/
+
+footer .left{
+    display:flex;
+    flex-wrap: wrap;
+    background-color: #f2f2f2;
+}
+
+.footer-bandeau{
+    background-color:#f2f2f2;
+    padding: 15px 30px;
+    border-bottom: 1px solid #f2f2f2;
+    font-size: 15px;
+    display:flex;
+    justify-content: space-between ;
+    flex-wrap: wrap;
+    margin-top: 300px;
+}
+/*Partie footer*/
+
+
+/* Nouveau conteneur pour aligner la barre de recherche et les icônes */
+.search-bar-container {
+    display: flex; /* Aligne les éléments horizontalement */
+    align-items: center; /* Aligne verticalement */
+    border: 2px solid #d1d1d1; /* Bordure de la barre de recherche */
+    border-radius: 50px; /* Coins arrondis */
+    background-color: #fff; /* Fond blanc */
+    padding: 5px 15px; /* Espacement intérieur */
+    width: 100%; /* Prend toute la largeur disponible */
+    max-width: 500px; /* Largeur maximale pour limiter l'expansion */
+    box-shadow: 0px 2px 11px 12px rgba(0, 0, 0, 0.05); /* Ombre légère */
+}
+
+/* Ajustement de l'input pour qu'il occupe l'espace disponible */
+.search-input {
+    flex: 1; /* S'étend pour occuper l'espace disponible */
+    border: none; /* Supprime la bordure */
+    outline: none; /* Supprime l'effet de focus */
+    padding: 10px 15px; /* Espacement interne */
+    font-size: 16px; /* Taille de la police */
+    border-radius: 50px; /* Coins arrondis pour l'input */
+}
+
+/* Styles pour les boutons des icônes */
+.icon-button {
+    background: none; /* Supprime le fond */
+    border: none; /* Supprime la bordure */
+    cursor: pointer; /* Curseur interactif */
+    font-size: 20px; /* Taille des icônes */
+    margin-left: 10px; /* Espacement entre input et bouton */
+    display: flex; /* Centrage */
+    align-items: center;
+    justify-content: center;
+    color: #555; /* Couleur par défaut */
+}
+
+.icon-button:hover {
+    background-color: #eee; /* Fond clair au survol */
+    border-radius: 50%; /* Forme ronde au survol */
+}
+
+/* Couleurs spécifiques des icônes */
+.search-icon {
+    color: #007BFF; /* Bleu pour la loupe */
+}
+
+.mic-icon {
+    color: #FF5733; /* Rouge/orange pour le micro */
+}
